@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'example/uiux_figma.dart';
 import 'screens/onboarding_screen.dart';
 
 // onboarding / login / home
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.cyan),
         useMaterial3: true,
       ),
-      home: const OnboardingScreen(),
+      home: const UiuxFigma(),
     );
   }
 }
